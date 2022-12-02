@@ -1,7 +1,7 @@
 #since war/jar bundle requires gem package; use gem-in-a-box for testing
 #or execute tabula via "rackup".
 #source "http://127.0.0.1:9292"
-
+ruby "3.1.2"
 source "https://rubygems.org"
 platform :jruby do
   gem "cuba", "~> 3.9.2"
